@@ -24,4 +24,4 @@ Este proyecto no solo busca ofrecer una solución tecnológica a un problema esp
 
 ---
 
-¡Espero que este proyecto contribuya significativamente a la mejora del proceso de detección de anomalías en troncos de encina y marque un paso adelante en la digitalización del mundo rural!
+¡Espero que este proyecto contribuya significativamente a la mejora del proceso de detección de anomalías en troncos de encina y marque un paso adelante en la digitalización del mundo rural! 
