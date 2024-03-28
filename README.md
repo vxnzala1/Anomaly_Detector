@@ -1,0 +1,3 @@
+Trabajo Final de Grado que consiste en la realización de un programa para la detección de anomalías en troncos de encina con la finalidad de agilizar el proceso que este actualmente conlleva y para la digitalización paulatina del mundo rural. 
+- Se emplea de herramientas **Label Studio** en un entorno de WSL de virtualización de Linux en Windows, con su versión correspondiente para el corecto desarrollo del software necesario para el entrenamiento de los modelos.
+- Para lanzar el software previo, se usa **Docker**

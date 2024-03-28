@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  label-studio:
+    restart: unless-stopped
+    image: heartexlabs/label-studio:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - label-studio-data:/label-studio/data
+    networks:
+      - d-monitor-network
+networks:
+  d-monitor-network:
+    name: d-monitor-network
+volumes:
+  label-studio-data:
+    driver: local

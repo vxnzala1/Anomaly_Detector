@@ -1,0 +1,5 @@
+- Abrir entorno de trabajo desde la carpeta de trabajo en Visual: docker run -it -p 8080:8080 -v `pwd`/mydata:/label-studio/data heartexlabs/label-studio:latest
+- Iniciar sesión en Label Studio: credeciales guardados.
+- Crear un docker-compose.yml en la carpeta de trabajo con el siguiente contenido:
+    -> Define un servicio llamado label-studio que se ejecuta utilizando la última imagen de heartexlabs/label-studio.
+- Labelizar modelo y luego exportar para el modelo labelizado sirva como entrenamiento al modelo siguiente.
