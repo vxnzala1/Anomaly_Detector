@@ -5,10 +5,11 @@ Este documento proporciona las instrucciones necesarias para configurar y comenz
 ## 🐳 Configuración de Docker
 
 1. **Abrir el entorno de trabajo en Visual Studio Code:**
-   Abre la terminal y ejecuta el siguiente comando en la carpeta de trabajo para iniciar Label Studio con Docker:
-    docker run -it -p 8080:8080 -v pwd/mydata:/label-studio/data heartexlabs/label-studio:latest
+  -> Abrir primeramente el Docker Desktop y posteriormente en terminal escribir: **docker-compose up**
+  -> Abre la terminal y ejecuta el siguiente comando en la carpeta de trabajo para iniciar Label Studio con Docker:
+  docker run -it -p 8080:8080 -v pwd/mydata:/label-studio/data heartexlabs/label-studio:latest
 
-    Este comando inicia Label Studio en el puerto `8080` y monta tu carpeta actual (`pwd`) bajo `/mydata` en el contenedor, permitiendo la persistencia de los datos.
+  Este comando inicia Label Studio en el puerto `8080` y monta tu carpeta actual (`pwd`) bajo `/mydata` en el contenedor, permitiendo la persistencia de los datos.
 
 ## 🔑 Iniciar Sesión en Label Studio
 
