@@ -30,3 +30,21 @@ services:
       - "8080:8080"
     volumes:
       - ./mydata:/label-studio/data
+
+## 🌐 Acceso a Plesk
+
+**URL:** [https://go-capricornio.com:8443](https://go-capricornio.com:8443)
+
+- **Usuario:** go-capricornio
+- **Contraseña:** Zi%hp8E*1uojxY9q
+
+## 📂 Acceso FTP
+
+- **Usuario:** go-capricornio.com_ahorgfjr5
+- **Contraseña:** Z46TiL$p4w
+
+## 💾 Base de Datos
+
+- **Base de Datos:** cerambyx_maria_db
+- **Usuario:** cerambyx_user
+- **Contraseña:** Uco.2024
