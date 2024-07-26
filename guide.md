@@ -48,3 +48,6 @@ services:
 - **Base de Datos:** cerambyx_maria_db
 - **Usuario:** cerambyx_user
 - **Contraseña:** Uco.2024
+
+##  Análisis manual de imágenes
+- Se separa en 3 tipos de acontecimientos encontrados en el árbol, con nomeclatura en inglés, clasificándose en: serrín, agujeros y cortes
