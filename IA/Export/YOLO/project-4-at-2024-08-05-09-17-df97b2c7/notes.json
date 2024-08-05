@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Cut"
+    },
+    {
+      "id": 1,
+      "name": "Hole"
+    },
+    {
+      "id": 2,
+      "name": "Injure"
+    },
+    {
+      "id": 3,
+      "name": "Sawdust"
+    }
+  ],
+  "info": {
+    "year": 2024,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

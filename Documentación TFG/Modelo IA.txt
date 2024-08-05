@@ -1,0 +1,9 @@
+- Se genera modelo inteligente mediante la exportación de las primeras 200 imágenes analizadas
+- Se descarga el entorno de trabajo que se desea implementar, en este caso como he investigados sobre algunos modelos de IA, se ha decidido implementar un modelo de IA que se ha generado en el entorno de trabajo de Label Studio y exportado en formato YOLO.
+- Se descarga el modelo de IA en formato YOLO, que se ha generado en el entorno de trabajo de Label Studio.
+- Se descarga el entorno de trabajo de YOLO, que en mi caso es la versión 5. Con el comando: pip install ultralytics  
+- Se descarga también el pytorch, que es una biblioteca de aprendizaje automático de código abierto, que se utiliza para aplicaciones como la visión artificial y el procesamiento del lenguaje natural, principalmente en el campo de la inteligencia artificial. Con el comando: pip install pytorch
+  pip install torch torchvision torchaudio.
+- Se comprueba que los archivos están organizados en Images y en Labels.
+- Creamos carpetas donde localizaremos el modelo de aprendizaje YOLO
+-

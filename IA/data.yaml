@@ -1,0 +1,5 @@
+train: D:\Documentos\Estudios\UNIVERSIDAD\Otros\TFG\Anomaly_Detector\IA\Export\YOLO\project-4-at-2024-08-05-09-17-df97b2c7\images  # Carpeta con imágenes de entrenamiento
+val: D:\Documentos\Estudios\UNIVERSIDAD\Otros\TFG\Descargas\only_segmented  # Carpeta con imágenes de validación
+
+nc: 4 # Número de clases
+names: ['Cut', 'Hole', 'Injure', 'Sawdust'] #Nombre de las clases
