@@ -1,0 +1,5 @@
+https://docs.ultralytics.com/guides/yolo-performance-metrics/     Ayuda con la interpretación de las tablas de resultados de YOLO
+https://docs.ultralytics.com/models/yolov10/#key-features     Características de YOLOv10
+https://docs.ultralytics.com/models/yolov8/#key-features     Características de YOLOv8
+https://docs.ultralytics.com/models/yolov8/                 Documentación de YOLOv8
+https://docs.ultralytics.com/models/yolov10/#usage-examples    Ejemplos de uso de YOLOv10 ya analisis de versiones anteriores

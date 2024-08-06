@@ -1,8 +1,0 @@
-names:
-- Cut
-- Hole
-- Injure
-- Sawdust
-nc: 4
-train: D:\Documentos\Estudios\UNIVERSIDAD\Otros\TFG\Anomaly_Detector\IA\Export\YOLO\project-4-at-2024-08-05-09-17-df97b2c7\output/fold_0/train\images
-val: D:\Documentos\Estudios\UNIVERSIDAD\Otros\TFG\Anomaly_Detector\IA\Export\YOLO\project-4-at-2024-08-05-09-17-df97b2c7\output/fold_0/val\images

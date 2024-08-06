@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detección de Anomalías en Troncos de Encina</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Detección de Anomalías en Troncos de Encina</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Proyecto TFG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduccion">Introducción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#objetivos">Objetivos</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anomaly-detector">Anomaly Detector</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Imagen Banner -->
+    <div class="container mt-4 text-center">
+        <img src=".\image.png" alt="Banner" class="img-fluid">
+    </div>
+
+    <div class="container mt-4">
+        <section id="introduccion">
+            <h2 class="text-primary">Introducción</h2>
+            <p>En este proyecto se realiza una exploración y avance informático en el entorno y medio rural para la optimización del tiempo y facilitación de las tareas a realizar en este entorno. Uno de los objetivos de este proyecto es participar en el proceso de digitalización del mundo rural mediante la implementación de software complejo en código pero con interfaz sencilla para el usuario.</p>
+
+            <p>Uno de los problemas que tiene el medio rural es la detección de plagas que puedan producirse en dicho entorno, tanto en el mundo animal como en el vegetal. Para la detección precoz de plagas en arbolado y bosques es fundamental la detección de heridas, agujeros, serrín y otras particularidades que genéricamente podemos denominar como anomalías en el árbol.</p>
+
+            <p>En el contexto actual, caracterizado por una amplia digitalización y la generación masiva de datos, se hace imprescindible desarrollar metodologías eficientes para la detección de anomalías. Esta necesidad es particularmente relevante en diversos sectores, subrayando, por ejemplo, la importancia crítica de anticipar fraudes en cualquier ámbito y en el financiero también, así como la rápida identificación de ciberataques para la protección de infraestructuras esenciales.</p>
+
+            <p>La detección de anomalías implica identificar datos que se desvían significativamente de lo esperado, indicando posibles irregularidades derivadas de comportamientos inusuales. La identificación efectiva de estas anomalías es crucial no solo para descubrir errores, sino también para optimizar el trabajo de los profesionales que, sin automatización, son propensos a fallos.</p>
+
+            <p>El uso de redes neuronales profundas (DNN) en la detección de anomalías ha demostrado ser un enfoque altamente eficaz, especialmente en contextos donde los datos son altamente dimensionales y complejos. En el caso de la detección de anomalías en troncos de encinas, se utilizan redes neuronales convolucionales (CNN), lo que permite identificar características clave como texturas inusuales, heridas o signos de plagas en las imágenes de los troncos.</p>
+
+            <p>El objetivo principal de este proyecto es diseñar y desarrollar una aplicación que facilite la detección de anomalías en el ámbito de las encinas. Esta aplicación permitirá al usuario insertar una fotografía en una interfaz, en la que se ejecutará un algoritmo entrenado para tal fin. El desarrollo busca facilitar los procesos de análisis de resultados para los interesados en este ámbito.</p>
+        </section>
+
+        <section id="objetivos" class="mt-5">
+            <h2 class="text-primary">Objetivos</h2>
+            <p>El presente trabajo tiene como objetivo el diseño y desarrollo de una aplicación web innovadora que integre algoritmos avanzados para la detección de anomalías en troncos de encinas, con un enfoque en la identificación de tumores y heridas. Se busca crear una herramienta accesible y eficaz para inspecciones automatizadas en el sector agroforestal.</p>
+
+            <h3>Objetivos Específicos</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Revisión y Análisis de Algoritmos:</strong> Investigar los algoritmos existentes para la detección de anomalías en imágenes.</li>
+                <li class="list-group-item"><strong>Implementación de Algoritmos:</strong> Desarrollar una arquitectura modular para integrar los algoritmos seleccionados.</li>
+                <li class="list-group-item"><strong>Evaluación y Validación:</strong> Realizar pruebas exhaustivas con conjuntos de datos reales y simulados.</li>
+                <li class="list-group-item"><strong>Desarrollo de la Interfaz de Usuario:</strong> Crear una interfaz sencilla e intuitiva para los usuarios.</li>
+                <li class="list-group-item"><strong>Elaboración de un Manual Detallado:</strong> Desarrollar un manual para usuarios y futuros desarrolladores.</li>
+                <li class="list-group-item"><strong>Promoción de la Innovación:</strong> Fomentar la innovación en la detección de anomalías a través de la plataforma desarrollada.</li>
+            </ul>
+        </section>
+
+        <section id="anomaly-detector" class="mt-5">
+            <h2 class="text-primary">Anomaly Detector</h2>
+            <p>Bienvenido a la herramienta <strong>Anomaly Detector</strong>, donde podrás detectar de forma automática las anomalías en troncos de encina utilizando algoritmos avanzados de visión artificial. Haz clic en el siguiente enlace para comenzar:</p>
+            <a href="page.html" class="btn btn-success">Ir a Anomaly Detector</a>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2024 Detección de Anomalías en Troncos de Encina. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

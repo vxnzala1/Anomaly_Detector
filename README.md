@@ -16,6 +16,10 @@ Para el desarrollo y la implementación de este programa, se emplean las siguien
 - **Lanzamiento del Software:**
   El uso de **Docker** es fundamental para desplegar y ejecutar el software de manera eficiente, asegurando la consistencia del entorno de ejecución y simplificando la configuración necesaria para el correcto funcionamiento del programa.
 
+### YOLO para el análisis
+
+- **Modelo Inteligente:**
+
 ## 🚀 Empezando
 
 Para iniciar con el proyecto y realizar el etiquetado de datos en Label Studio, así como preparar el entorno para el lanzamiento del software de detección de anomalías, sigue los pasos específicos relacionados con la configuración de WSL, la instalación de Docker, y la preparación del entorno de Label Studio.

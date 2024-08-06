@@ -1,0 +1,12 @@
+# Ignorar el entorno virtual
+.venv/
+
+# Otros archivos o directorios que quieres ignorar
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+.idea/
+.vscode/

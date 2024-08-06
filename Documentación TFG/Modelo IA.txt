@@ -1,3 +1,38 @@
+-------------------
+Acceso a Plesk
+-------------------
+- URL a Plesk
+https://go-capricornio.com:8443
+
+- Usuario:
+go-capricornio
+
+- Contraseña:
+Zi%hp8E*1uojxY9q
+
+
+-------------------
+Acceso FTP
+-------------------
+- Usuario:
+go-capricornio.com_ahorgfjr5
+
+- Contraseña:
+Z46TiL$p4w
+
+-------------------
+Acceso a la Base de Datos
+-------------------
+- Base de Datos:
+cerambyx_maria_db
+
+- Usuario:
+cerambyx_user
+
+- Contraseña:
+Uco.2024
+
+-------------------
 - Se genera modelo inteligente mediante la exportación de las primeras 200 imágenes analizadas
 - Se descarga el entorno de trabajo que se desea implementar, en este caso como he investigados sobre algunos modelos de IA, se ha decidido implementar un modelo de IA que se ha generado en el entorno de trabajo de Label Studio y exportado en formato YOLO.
 - Se descarga el modelo de IA en formato YOLO, que se ha generado en el entorno de trabajo de Label Studio.
@@ -10,7 +45,35 @@
 - Creamos una ejecución en la que se nos muestra el modelo de IA en funcionamiento
 - Se nos guardan en capretas las imágenes con las etiquetas que se han detectado
 - Se intenta ejecutar el procesamiento por GPU usando Cuda 12.4.0, pero no se consigue, por lo que se ejecuta en CPU en sus primeras instancias. Hasta en unas 20 ocasiones.
+- Instalamos la versión compatuible porque me doy cuenta de que la 3.12.4 no es compatible con el Cuda 12.4.0
+- Se procede a instalar la versión 3.9 de Python, que es la que se necesita para que funcione el Cuda 12.4.0
+- A partir del train 21 ya consigo tener la versiones actualizadas además de los paquetes de instalacion como el pytorch y ultralytics
+- Ejecutamos en Terminal con el siguiente comando: python -u "d:\Documentos\Estudios\UNIVERSIDAD\Otros\TFG\Anomaly_Detector\IA\Mod1.py" (genera las imágenes más rápidamenta al trabajar con GPU)
+- Configuramos el modelo para incorporarlo en Label Studio para la predicción en la detección de anomalías de las siguientes imágenes mientras que a la vez el modelo va aprendiendo de las imágenes que se le van proporcionando.
+- Se ejecuta el modelo en Label Studio y se comprueba que funciona correctamente.
+- Se procede a retomar el entrnemiaento del modelo en YOLO, pero esta vez en local con las imagenes modelo que tenemos 
+- Se realiza un script para la retirada de imagenes que aún entrenadas tienen 0 labels porque no se le han detectado anomalías, por lo que del modelo inical de unas 213 imagenes nos quedamos con unas 190.
+- Creamos un modelo web para la implentación y utilización del modelo de IA en la web.
+- A la página se le mete un index para la rececpssión del usuariop qe le redirige a una landing minimalista con modo oscuro y un botón para subir la imagen. Y analizarla.
+- Modifico el backend para que ahora procese la imagen y no solo la reciba
+- Se ajusta backend para que devuelva la ruta a los archivos que me crea mi programa y asi el usuario pueda obetener los mismos datos que yo obtengo en mi programa.
+- Viendo que con el modelo con más imágenes cada vez vamos alcanzando más precisión como podemos ver en las gráficas de resultados, se decide continuar metiendo más epochs para ver si se consigue una mayor precisión, hasta conseguir minimizar el error.
+- Con el yolov8n se consigue sobre un 90% de precisión, pero se sigue intentando mejorar con el yolov10s.
+- Se está utilizando para los primeros entrenamientos un modelo de YOLOv8n, se harán pruebas con YOLOv10x para ver si se consigue una mayor precisión.
+- Comprobamos varios entrenemientos con YOLOv10s y vemos que el rendimiento de la aplicación ha decrementado incluso usando los mismos epochs que con YOLOv8n, perdiendo precisión.
+- Vamos a probar otros modelos siendo el siguiente el YOLOv10n, no se observa mejoría notoria, hasta ahora con 100 epochs el mejor es YOLOv8n.
+- Probamos con el que ya sabemos que funciona reajustando parametros, escala de la imagen, número de epochs, tamaño de la imagen, early stopping, además aumentamos el tamaño del lote.
 
----
 
-- Creamos un colaboratory para tocar el modelo entrenado en YOLO
+-------------------
+Entorno Virtual de ejecución
+-------------------
+- Creamos un colaboratory para tocar el modelo entrenado en YOLO por GPU para que en caso de no tener buena gráfica en el ordenador, se pueda ejecutar en la nube. Todo este con procesamiento en google colab.
+
+
+-------------------
+LISTA DE TAREAS
+-------------------
+- [x] Estudio previo de los algoritmos que plantemos para la detección de anomalías y con cual me quedamos.
+- [x] Cambiar el codigo del fold al objetivo final y testear cual de los parametros es el que va mejor (probando varios parametros y eligiendo cual nos quedamos para el modelo final) PUNTO 3.
+- [x] Crear una web (front) donde se pondra una interfaz de usuario con select de algoritmos y un boton de subir imagen. Drag and drop de la imagen y que nos devuelva la imagen procesada. PUNTO 4.
