@@ -6,4 +6,11 @@
   pip install torch torchvision torchaudio.
 - Se comprueba que los archivos están organizados en Images y en Labels.
 - Creamos carpetas donde localizaremos el modelo de aprendizaje YOLO
--
+- Creamos un archivo de configuración de YOLO
+- Creamos una ejecución en la que se nos muestra el modelo de IA en funcionamiento
+- Se nos guardan en capretas las imágenes con las etiquetas que se han detectado
+- Se intenta ejecutar el procesamiento por GPU usando Cuda 12.4.0, pero no se consigue, por lo que se ejecuta en CPU en sus primeras instancias. Hasta en unas 20 ocasiones.
+
+---
+
+- Creamos un colaboratory para tocar el modelo entrenado en YOLO
